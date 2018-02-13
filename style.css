@@ -1,0 +1,223 @@
+* {
+    margin:0px;
+    padding:0px;
+    border: 0px;
+    font-family: Arial;
+}
+
+.container {
+    width: 970px;
+    /* height: 700px; */
+    /* outline: 4px dotted blue; */
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    /* outline: 4px dotted yellow; */
+    background-color: #f9f9f9;
+    
+}
+
+.header h2{
+	display:inline-block;
+    margin-right: 480px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header h3 {
+    display:inline-block;
+    margin-top: 20px;
+}
+
+.main {
+    width: 100%;
+    height: 900px;
+    /* outline: 4px dotted red; */
+    margin-top: 0px;
+    background-color: #3d2b31;
+    
+}
+
+.pic {
+    width: 400px;
+    height: 300px;
+    /* outline: 4px dotted purple; */
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    
+}
+
+.pic img {
+    width:400px;
+    height:290PX;
+    border: 5px solid #7d7377;
+}
+
+.about {
+    width: 400px;
+    height: 300px;
+    /* outline: 4px dotted purple; */
+    display: inline-block;
+    margin: 20px;
+    background-color: lightgray;
+    font-size: 16px;
+    
+}
+
+.about h2 {
+    padding: 5px 10px;
+	background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+    color:white;
+}
+
+.about p {
+    padding: 10px;
+}
+
+.laMode {
+    width: 300px;
+    height: 525px;
+    /* outline: 4px dotted teal; */
+    display: inline-block;
+    margin: 6px;
+    vertical-align: top;
+    background-color: #bdbdbf;
+    border: 2px solid #bdbdbf
+}
+
+.laMode h2 {
+    width: 100%;
+    padding: 5px 0 5px 2px;
+	color: white;
+	background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+    
+}
+.laMode img {
+    width: 300px;
+} 
+
+.laMode p {
+    color: black;
+    padding:4px;
+} 
+
+
+.familyContacts {
+    width: 300px;
+    height: 525px;
+    /* outline: 4px dotted teal; */
+    display: inline-block;
+    margin: 6px;
+    vertical-align: top;
+    background-color: #bdbdbf;
+    border: 2px solid #bdbdbf
+}
+
+.familyContacts h2 {
+    width: 100%;
+    padding: 5px 0 5px 2px;
+	color: white;
+	background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+    
+}
+
+.familyContacts img {
+    width: 300px;
+} 
+
+.familyContacts p {
+    color: black;
+    padding:4px;
+} 
+
+.fiveEleven {
+    width: 300px;
+    height: 525px;
+    /* outline: 4px dotted teal; */
+    display: inline-block;
+    margin: 6px;
+    vertical-align: top;
+    background-color: #bdbdbf;
+    border: 2px solid #bdbdbf
+}
+
+.fiveEleven h2 {
+    width: 100%;
+    padding: 5px 0 5px 2px;
+	color: white;
+	background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+    
+}
+
+.fiveEleven img {
+    width: 300px;
+} 
+
+.fiveEleven p {
+    color: black;
+    padding:4px;
+} 
+
+.tech_pics li {
+    display: inline-block;
+} 
+.tech_pics img{
+	width:40px;
+	height:40px;
+}
+.tech_pics {
+	padding:15px 0px 0px 12px;
+}
+
+button {
+	background-color: green;
+	color:white;
+	border:solid 1px black;
+	border-radius: 6px;
+	padding:5px;
+	margin: 10px 80px;
+	font-size: 15px;
+    font-weight:bold;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    /* outline: 4px dotted yellow; */
+    margin-top: 0px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.footer p {
+    /* margin:auto;
+    width: 240px; */
+    padding-bottom: 10px;
+}
+.footer ul li {
+	display:inline-block;
+}
+
+.footer img {
+	width: 25px;
+	height:auto;
+
+}
